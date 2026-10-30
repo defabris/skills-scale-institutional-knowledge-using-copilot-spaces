@@ -1,6 +1,6 @@
 # OctoAcme Project Management Documentation
 
-This repository contains the core project management guidance used by OctoAcme to move work from idea to delivery and continuous improvement. The documentation is designed to help teams align on goals, ownership, communication, and quality expectations while reducing dependency on individual knowledge. Together, these process documents provide a practical framework for project initiation, planning, execution, release, risk management, and retrospective learning.
+This repository contains the core project management guidance used by OctoAcme to move work from idea to delivery and continuous improvement. The documentation is designed to help teams align on goals, ownership, communication, and quality expectations while reducing dependence on individual knowledge. Together, these process documents provide a practical framework for project initiation, planning, execution, release, risk management, and retrospective learning.
 
 ## Project management process overview
 
