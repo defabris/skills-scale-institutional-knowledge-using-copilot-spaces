@@ -1,81 +1,127 @@
-# OctoAcme Personas
-
-This document defines typical roles and responsibilities used in OctoAcme project docs and exercises.
-
----
-
-## Developers
+## Security / Compliance Lead
 
 ### Role Summary
-Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
+Security and compliance leads protect the organization from technical and regulatory risk by embedding secure practices, risk reviews, and compliance controls into project delivery.
 
 ### Responsibilities
-- Implement features and fixes to meet acceptance criteria
-- Write and maintain tests and documentation
-- Participate in design and code reviews
-- Assist in estimating and planning work
-- Help identify technical risks and propose mitigations
+- Review architectures and designs for security and privacy risks
+- Facilitate threat modeling and secure design reviews
+- Coordinate compliance checks and policy adherence
+- Support vulnerability triage and remediation planning
+- Partner with PM, Product, and Engineering on release readiness and risk mitigation
 
 ### Goals
-- Deliver reliable, maintainable code
-- Reduce cycle time from idea to production
-- Maintain high test coverage and observability
+- Reduce security and compliance risk
+- Ensure delivery decisions are informed by control requirements
+- Maintain trust in product and service quality
 
 ### Typical Communication
-- Daily standups and sprint planning
-- PR descriptions and code review comments
-- Technical design docs when needed
+- Security reviews and risk assessments
+- Release readiness checklists
+- Incident and vulnerability coordination
+- Cross-functional governance meetings
 
 ---
 
-## Product Managers
+## Design / UX Lead
 
 ### Role Summary
-Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
+Design and UX leads ensure that user needs, usability, and customer experience remain central to delivery decisions.
 
 ### Responsibilities
-- Define problem statements and success metrics
-- Prioritize the roadmap and backlog
-- Collaborate with stakeholders and engineering on trade-offs
-- Validate solutions through user research and metrics
+- Define user experience goals and interaction patterns
+- Translate customer problems into design requirements
+- Validate usability through research and testing
+- Align design choices with product strategy and system constraints
+- Partner with Product and Engineering to improve feature quality
 
 ### Goals
-- Maximize customer value and impact
-- Make clear, data-driven prioritization decisions
-- Ensure product-market fit and usability
+- Improve user satisfaction and product usability
+- Reduce friction in the customer journey
+- Align design decisions with measurable outcomes
 
 ### Typical Communication
-- Weekly alignment with PM and engineering leads
-- Roadmap updates and stakeholder briefings
-- Acceptance criteria and feature specs
+- Design reviews and feature workshops
+- User research summaries and usability findings
+- Product backlog refinement and acceptance criteria discussions
 
 ---
 
-## Project Managers
+## Data / Analytics Lead
 
 ### Role Summary
-Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
+Data and analytics leads help teams define measurable outcomes, instrumentation, and reporting so decisions are based on evidence.
 
 ### Responsibilities
-- Create and maintain project plans and timelines
-- Manage risks, dependencies, and resource constraints
-- Facilitate meetings (kickoff, planning, retrospectives)
-- Ensure consistent project documentation and status reporting
-- Coordinate cross-team and stakeholder communication
+- Define success metrics and reporting requirements
+- Ensure instrumentation supports business and product decisions
+- Review data quality, dashboards, and analytics dependencies
+- Partner with PM and Engineering on measurement strategy
+- Help assess whether launched work is achieving the intended outcomes
 
 ### Goals
-- Deliver projects on time and within scope
-- Minimize unplanned work and escalations
-- Maintain transparency and alignment across stakeholders
+- Improve decision quality with measurable evidence
+- Ensure product impact is visible and actionable
+- Support continuous learning and iteration
 
 ### Typical Communication
-- Weekly status updates and stakeholder reports
-- Risk registers and decision logs
-- Coordination via project boards and meeting facilitation
+- Metrics reviews and dashboard updates
+- Planning discussions for instrumentation and reporting
+- Post-release impact analysis
 
 ---
 
-## How these personas are used in the exercise
-- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
-- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
+## Customer Support / Success Liaison
 
+### Role Summary
+Customer support and success roles connect frontline user feedback to product and project decision-making.
+
+### Responsibilities
+- Capture recurring customer issues and feedback
+- Surface support escalations and operational pain points
+- Inform prioritization with real-world usage insights
+- Support release readiness by identifying customer impact
+- Coordinate with Product and PM on support implications
+
+### Goals
+- Improve customer experience and retention
+- Reduce avoidable support friction
+- Ensure product decisions reflect real customer needs
+
+### Typical Communication
+- Customer issue triage and escalation updates
+- Support readiness reviews
+- Product feedback loops and release notes coordination
+
+---
+
+## Platform / SRE / Operations Lead
+
+### Role Summary
+Platform, SRE, and operations leads ensure that systems remain reliable, observable, and supportable in production.
+
+### Responsibilities
+- Manage deployment readiness and operational resilience
+- Own monitoring, alerting, and incident response readiness
+- Support scalability, observability, and production stability
+- Partner with Engineering and PM on risk and rollback planning
+- Help define operational requirements for release quality and uptime
+
+### Goals
+- Maintain service reliability and operational health
+- Reduce deployment risk and production incidents
+- Improve team readiness for change and recovery
+
+### Typical Communication
+- Release readiness and deployment reviews
+- Incident response and postmortem coordination
+- System health and reliability discussions
+
+---
+
+## How these roles interact with the existing personas
+
+- Developers collaborate with Security, UX, and SRE partners to ensure delivery is secure, usable, and operationally sound.
+- Product Managers work with Design, Data, and Support roles to define outcomes, measure impact, and prioritize customer value.
+- Project Managers coordinate schedules, dependencies, and communication across these functions to keep work aligned and accountable.
+- These additional personas strengthen the existing framework by clarifying ownership where cross-functional work often creates ambiguity.
